@@ -14,10 +14,12 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- import fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+
     <title>TestSite</title>
   </head>
   <body>
@@ -282,7 +284,7 @@
             srcset=""
           />
           <img
-            class="device__item"
+            class="device__item device__item--iphone"
             src="/assets/img/device/smart.png"
             alt=""
             srcset=""
@@ -292,5 +294,111 @@
       </div>
       <!-- /.container -->
     </section>
+
+    <!-- Fourth Slide -->
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h3 class="section__suptitle">Service</h3>
+          <h2 class="section__title">What we do ?</h2>
+
+          <div class="section__text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              minus neque, architecto qui excepturi ex dolore quis animi fugiat
+              commodi consequuntur quasi quo veritatis, deleniti ratione
+              voluptate odio earum vero.
+            </p>
+          </div>
+        </div>
+
+        <div class="wedo">
+          <div class="wedo__item">
+            <img src="/assets/img/man.png" alt="" />
+          </div>
+          <div class="wedo__item">
+            <div class="accord">
+              <div class="accord__item">
+                <div class="accord__header">
+                  <img
+                    class="accord__icon"
+                    src="/assets/img/accord/square.png"
+                    alt=""
+                  />
+                  <div class="accord__title">Photography</div>
+                </div>
+                <div class="accord__content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                  veniam perspiciatis eveniet quia, odio voluptatem molestias
+                  cupiditate quo, et, repellendus saepe corporis nobis! Porro
+                  quaerat officia deleniti animi harum quas.
+                </div>
+              </div>
+              <div class="accord__item">
+                <div class="accord__header">
+                  <img
+                    class="accord__icon"
+                    src="/assets/img/accord/set.png"
+                    alt=""
+                  />
+                  <div class="accord__title">Creativity</div>
+                </div>
+                <div class="accord__content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                  veniam perspiciatis eveniet quia, odio voluptatem molestias
+                  cupiditate quo, et, repellendus saepe corporis nobis! Porro
+                  quaerat officia deleniti animi harum quas.
+                </div>
+              </div>
+              <div class="accord__item">
+                <div class="accord__header">
+                  <img
+                    class="accord__icon"
+                    src="/assets/img/accord/circle.png"
+                    alt=""
+                  />
+                  <div class="accord__title">Web Design</div>
+                </div>
+                <div class="accord__content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                  veniam perspiciatis eveniet quia, odio voluptatem molestias
+                  cupiditate quo, et, repellendus saepe corporis nobis! Porro
+                  quaerat officia deleniti animi harum quas.
+                </div>
+              </div>
+            </div>
+            <!-- /.accord -->
+          </div>
+          <!-- /. wedo__item -->
+        </div>
+        <!-- /.wedo -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section -->
+
+    <!-- Accordeon listener -->
+    <script src="accordListener.js"></script>
+    <!-- ... -->
+
+    <div class="section section--gray">
+      <div class="container">
+        <div class="reviews">
+
+          <a class="reviews__btn reviews__btn--prev" href="#">Prev</a>
+          <a class="reviews__btn reviews__btn--next" href="#">Next</a>
+          
+          <div class="reviews__item">
+            <img class="reviews__icon" src="http://placehold.it/145" alt="" />
+            <div class="reviews__text">
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+              neque vitae odio dicta minus ea illo deleniti quia blanditiis."
+            </div>
+            <div class="reviews__author">J.K.Simons</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
