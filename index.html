@@ -4,21 +4,26 @@
     <!-- 
       
       Hi there! It's a simple my site
-      Where I try to remember html, css, js
+      Where I try to remember HTML5, CSS3 and JS :)
     
     -->
 
     <meta charset="UTF-8" />
 
-    <!-- import css file -->
+    <!-- import main css file -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- import fonts  -->
+    <!-- import fonts by Gfonts  -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <!-- import icons by fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/9fcfdfb5b6.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>TestSite</title>
   </head>
@@ -106,27 +111,27 @@
         </div>
         <!-- /.section__header -->
 
-        <div class="about">
-          <div class="about__item">
-            <div class="about__img">
+        <div class="card">
+          <div class="card__item">
+            <div class="card__img">
               <img src="/assets/img/about/1.jpg" alt="" />
             </div>
-            <div class="about__text">Sample Text</div>
+            <div class="card__content">Sample Text</div>
           </div>
-          <div class="about__item">
-            <div class="about__img">
+          <div class="card__item">
+            <div class="card__img">
               <img src="/assets/img/about/2.jpg" alt="" />
             </div>
-            <div class="about__text">Sample Text</div>
+            <div class="card__content">Sample Text</div>
           </div>
-          <div class="about__item">
-            <div class="about__img">
+          <div class="card__item">
+            <div class="card__img">
               <img src="/assets/img/about/3.jpg" alt="" />
             </div>
-            <div class="about__text">Sample Text</div>
+            <div class="card__content">Sample Text</div>
           </div>
         </div>
-        <!-- /.about -->
+        <!-- /.card -->
       </div>
       <!-- /.container -->
     </section>
@@ -379,16 +384,17 @@
     <!-- /.section -->
 
     <!-- Accordeon listener -->
-    <script src="accordListener.js"></script>
+    <script src="/assets/scripts/accordListener.js"></script>
     <!-- ... -->
+
+    <!-- Reviews -->
 
     <div class="section section--gray">
       <div class="container">
         <div class="reviews">
-
           <a class="reviews__btn reviews__btn--prev" href="#">Prev</a>
           <a class="reviews__btn reviews__btn--next" href="#">Next</a>
-          
+
           <div class="reviews__item">
             <img class="reviews__icon" src="http://placehold.it/145" alt="" />
             <div class="reviews__text">
@@ -399,6 +405,132 @@
           </div>
         </div>
       </div>
+      <!-- /.container -->
     </div>
+    <!-- /.section section--gray -->
+
+    <!-- Fifth Slide -->
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h3 class="section__suptitle">Who we are?</h3>
+          <h2 class="section__title">Meet our team</h2>
+
+          <div class="section__text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              excepturi delectus debitis. Quae a quam temporibus nostrum
+              architecto numquam voluptatibus consequatur molestias, tempore,
+              perferendis excepturi, obcaecati soluta in velit? Neque?
+            </p>
+          </div>
+        </div>
+        <!-- /.section__header -->
+
+        <div class="card card--hipster">
+          <div class="card__item card--item--hipster">
+            <div class="card__img card--img--hipster">
+              <img src="/assets/img/hipsters/man-01.png" alt="" />
+            </div>
+
+            <div class="card__content">
+              <div class="social">
+                <a class="social__item" href="#" target="_blank">
+                  <i class="fab fa-facebook-f"> </i>
+                </a>
+                <a class="social__item" href="#" target="_blank">
+                  <i class="fab fa-pinterest-p"></i>
+                </a>
+                <a class="social__item" href="#" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a class="social__item" href="#" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="card__text">
+              <h4>Matthew Dix</h4>
+              <h5>Graphic Design</h5>
+            </div>
+          </div>
+          <!-- /.card--item--hipster (1) -->
+
+          <div class="card__item card--item--hipster">
+            <div class="card__img card--img--hipster">
+              <img src="/assets/img/hipsters/man-02.png" alt="" />
+            </div>
+
+            <div class="card__content">
+              <div class="social">
+                <a class="social__item" href="#" target="_blank">
+                  <i class="fab fa-facebook-f"> </i>
+                </a>
+                <a class="social__item" href="#" target="_blank">
+                  <i class="fab fa-pinterest-p"></i>
+                </a>
+                <a class="social__item" href="#" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a class="social__item" href="#" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="card__text">
+              <h4>Christopher Campbell</h4>
+              <h5>Branding/UX design</h5>
+            </div>
+          </div>
+          <!-- /.card--item--hipster (2) -->
+
+          <div class="card__item card--item--hipster">
+            <div class="card__img card--img--hipster">
+              <img src="/assets/img/hipsters/man-03.png" alt="" />
+            </div>
+
+            <div class="card__content">
+              <div class="social">
+                <a class="social__item" href="#" target="_blank">
+                  <i class="fab fa-facebook-f"> </i>
+                </a>
+                <a class="social__item" href="#" target="_blank">
+                  <i class="fab fa-pinterest-p"></i>
+                </a>
+                <a class="social__item" href="#" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a class="social__item" href="#" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="card__text">
+              <h4>Michael Fertig</h4>
+              <h5>Graphic Design</h5>
+            </div>
+          </div>
+          <!-- /.card--item--hipster (3) -->
+        </div>
+        <!-- /.card -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section -->
+
+    <!-- Hipster logo's -->
+
+    <section class="section section--gray">
+      <div class="container">
+        <div class="content__item">
+          <img src="" alt="" />
+        </div>
+        <div class="content__item">
+          <img src="/assets/img/hipster-logo.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- /.section section--gray -->
   </body>
 </html>
